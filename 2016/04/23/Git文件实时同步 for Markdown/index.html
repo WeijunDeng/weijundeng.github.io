@@ -64,7 +64,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Git,Markdown," />
 
 
 
@@ -80,15 +80,40 @@
 
 
 
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="邓伟俊">
-<meta property="og:url" content="http://weijun.me/index.html">
+<meta name="description" content="对于一个经常使用Markdown写作的程序员来说，这实在让人兴奋不已。
+
+最终目的你在某个文件夹下的文件变动，可以实时自动提交推送到Git。
+这就是本文最终的目的。
+作为程序员的你一定使用过Git或SVN，你应该可以理解什么意思。
+而如果你刚好跟我一样，经常使用Markdown写作，你应该可以理解，这意味着什么：
+
+本地编辑Markdown文件，自由地记笔记或写博客，无论使用什么编辑器
+轻量的云">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git文件实时同步 for Markdown">
+<meta property="og:url" content="http://weijun.me/2016/04/23/Git文件实时同步 for Markdown/index.html">
 <meta property="og:site_name" content="邓伟俊">
-<meta property="og:description">
+<meta property="og:description" content="对于一个经常使用Markdown写作的程序员来说，这实在让人兴奋不已。
+
+最终目的你在某个文件夹下的文件变动，可以实时自动提交推送到Git。
+这就是本文最终的目的。
+作为程序员的你一定使用过Git或SVN，你应该可以理解什么意思。
+而如果你刚好跟我一样，经常使用Markdown写作，你应该可以理解，这意味着什么：
+
+本地编辑Markdown文件，自由地记笔记或写博客，无论使用什么编辑器
+轻量的云">
+<meta property="og:updated_time" content="2016-04-25T05:30:18.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="邓伟俊">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Git文件实时同步 for Markdown">
+<meta name="twitter:description" content="对于一个经常使用Markdown写作的程序员来说，这实在让人兴奋不已。
+
+最终目的你在某个文件夹下的文件变动，可以实时自动提交推送到Git。
+这就是本文最终的目的。
+作为程序员的你一定使用过Git或SVN，你应该可以理解什么意思。
+而如果你刚好跟我一样，经常使用Markdown写作，你应该可以理解，这意味着什么：
+
+本地编辑Markdown文件，自由地记笔记或写博客，无论使用什么编辑器
+轻量的云">
 
 
 
@@ -106,7 +131,7 @@
   };
 </script>
 
-  <title> 邓伟俊 </title>
+  <title> Git文件实时同步 for Markdown | 邓伟俊 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -127,9 +152,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -208,9 +231,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -230,10 +253,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/04/23/Git文件实时同步 for Markdown/" itemprop="url">
-                  Git文件实时同步 for Markdown
-                </a>
+                Git文件实时同步 for Markdown
               
             
           </h1>
@@ -299,9 +319,7 @@
       
 
       
-        
-          
-            <blockquote>
+        <blockquote>
 <p>对于一个经常使用Markdown写作的程序员来说，这实在让人兴奋不已。</p>
 </blockquote>
 <h2 id="最终目的"><a href="#最终目的" class="headerlink" title="最终目的"></a>最终目的</h2><p>你在某个文件夹下的文件变动，可以<strong>实时自动</strong>提交推送到Git。</p>
@@ -365,183 +383,59 @@
 <h2 id="回顾与展望"><a href="#回顾与展望" class="headerlink" title="回顾与展望"></a>回顾与展望</h2><p>Markdown的编辑器已经多如牛毛，很多已经走上了或开源或收费的道路，彼此的同质化情况也较为严重。在各个开发者不断增加功能和完善体验的更新中，我希望使用Markdown记笔记或写博客时，通过给用户开放配置Git来实现同步和协作，也可以成为一个选择。</p>
 <p><del>我不会告诉你，我已经不用fswatch了，一边码字一边留意终端有没有上传，也是很碍眼又费神的。我现在是隔一段时间就手动执行一下commit.sh，反正就是3次击键的操作。所以还是App原生集成配置Git最好。</del></p>
 
-          
-        
       
     </div>
     
     <div>
       
+        
+      
     </div>
 
     <div>
+      
+        
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/04/22/重回Hexo/" itemprop="url">
-                  重回Hexo
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-22T20:00:00+08:00" content="2016-04-22">
-              2016-04-22
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Life/" itemprop="url" rel="index">
-                    <span itemprop="name">Life</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
+            <a href="/tags/Git/" rel="tag">#Git</a>
           
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/04/22/重回Hexo/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/22/重回Hexo/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
+            <a href="/tags/Markdown/" rel="tag">#Markdown</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <blockquote>
-<p>我又回到了Hexo的怀抱。</p>
-</blockquote>
-<h2 id="Farbox"><a href="#Farbox" class="headerlink" title="Farbox"></a>Farbox</h2><p>还有两个月，我之前购买的<a href="https://www.farbox.com/" target="_blank" rel="external">Farbox</a>一年Standard服务即将到期。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Standard</span><br><span class="line"></span><br><span class="line">文件数500, 月流量2GB， ￥65每年</span><br><span class="line"></span><br><span class="line">在你的博客里，偶尔会在文章中穿插几张照片，亦或经常写文的，每篇文章也有一些访问量。</span><br><span class="line"></span><br><span class="line">这是一片用心经营的天地，作为日常使用，这个计划会非常适合你。</span><br><span class="line"></span><br><span class="line">另外，一年期到之后，如果不续费，账户会降级为Basic，自动再获得5年的Basic延期。</span><br><span class="line"></span><br><span class="line">到期时间 2016-06-04 续费 ￥65/year</span><br></pre></td></tr></table></figure>
-<p>而这期间的使用情况，还不算多。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">+--------+-----------+-----------+----------+</span><br><span class="line">| Month  | Bandwidth | PageViews | Requests |</span><br><span class="line">+--------+-----------+-----------+----------+</span><br><span class="line">| <span class="number">201604</span> | <span class="number">93.4</span>MB    | <span class="number">559</span>       | <span class="number">1346</span>     |</span><br><span class="line">+--------+-----------+-----------+----------+</span><br><span class="line">| <span class="number">201603</span> | <span class="number">224.3</span>MB   | <span class="number">784</span>       | <span class="number">2516</span>     |</span><br><span class="line">+--------+-----------+-----------+----------+</span><br><span class="line">| <span class="number">201602</span> | <span class="number">134.4</span>MB   | <span class="number">533</span>       | <span class="number">1378</span>     |</span><br><span class="line">+--------+-----------+-----------+----------+</span><br><span class="line">| <span class="number">201601</span> | <span class="number">278.4</span>MB   | <span class="number">703</span>       | <span class="number">2091</span>     |</span><br><span class="line">+--------+-----------+-----------+----------+</span><br><span class="line">| <span class="number">201512</span> | <span class="number">271.2</span>MB   | <span class="number">756</span>       | <span class="number">2358</span>     |</span><br><span class="line">+--------+-----------+-----------+----------+</span><br><span class="line">| <span class="number">201511</span> | <span class="number">172.9</span>MB   | <span class="number">438</span>       | <span class="number">1427</span>     |</span><br><span class="line">+--------+-----------+-----------+----------+</span><br><span class="line">| <span class="number">201510</span> | <span class="number">353.9</span>MB   | <span class="number">456</span>       | <span class="number">1999</span>     |</span><br><span class="line">+--------+-----------+-----------+----------+</span><br><span class="line">| <span class="number">201509</span> | <span class="number">453.5</span>MB   | <span class="number">552</span>       | <span class="number">2496</span>     |</span><br><span class="line">+--------+-----------+-----------+----------+</span><br><span class="line">| <span class="number">201508</span> | <span class="number">395.7</span>MB   | <span class="number">517</span>       | <span class="number">2456</span>     |</span><br><span class="line">+--------+-----------+-----------+----------+</span><br><span class="line">| <span class="number">201507</span> | <span class="number">160.2</span>MB   | <span class="number">443</span>       | <span class="number">1412</span>     |</span><br><span class="line">+--------+-----------+-----------+----------+</span><br><span class="line">| <span class="number">201506</span> | <span class="number">10.8</span>MB    | <span class="number">633</span>       | <span class="number">1048</span>     |</span><br><span class="line">+--------+-----------+-----------+----------+</span><br><span class="line">| <span class="number">201505</span> | <span class="number">44.8</span>MB    | <span class="number">533</span>       | <span class="number">1454</span>     |</span><br><span class="line">+--------+-----------+-----------+----------+</span><br></pre></td></tr></table></figure>
-<p>Farbox的初衷就是尽可能地让你简简单单舒舒服服安安静静地写博客并发布。之所以用这么多的叠词，是因为它的确做到了。自动同步更新博客，快速切换主题，直接粘贴上传图片，甚至通过微信公众号快速发表博客，这一切其实是对得起用户的付费的。Farbox希望用户能够在这个优雅的平台优雅地记录生活，包括但不限于游记、相册、日记、文章。</p>
-<p>但既然决定离开，总有原因的。就像之前租的房子，提前转租的原因就是太贵了，太小了。</p>
-<p>Farbox问题在于它真的走太远了，做太多事情，太累了。</p>
-<p>客户端编辑器的同步容易出问题，Web端的在线编辑器太弱，内置的评论功能与Farbox用户的关系不够清晰，高度可定义的主题模版的操作性不强，自带的网站加速偶尔会太慢，自带图床其实不错但不支持第三方云存储，而非静态网页无论怎样渲染缓存优化也难以与静态网页的加载速度相比……所有的这些，问题也不算太大。</p>
-<p>最大问题是，由于其自身一定程度上的封闭性，加上开发者的有心无力，这两者导致了社区交流不活跃，功能扩展不开放。与Hexo丰富的主题和插件相比，Farbox的简单，应该是不想让用户折腾，降低用户写每一篇博客的门槛。而这个，有点类似iPhone和Android，功能扩展开发的封闭与开放，各有利弊。</p>
-<p>对于一个不再更新的产品，用户会认为创造者已经放弃这个产品，用户也会逐渐放弃它的。近年内Apple虽然屡屡被指发布产品创新性不大，但在产品基调不变之下，通过运用成熟的技术来不断完善功能和优化细节，也还能留住老用户和吸引新用户。</p>
-<p>时代在变化，市场在竞争。用户会选择最适合自己的。</p>
-<p>而于我而言，过于满足和依赖Farbox，会让我对这个繁花似锦的互联网大千世界少了一些探索。就像一直习惯使用<del>印象笔记</del>Evernote的人们，可能很多人并不知道在富文本编辑、任务管理、日历安排等方面有更加优秀的其他产品。当然，总有人偏爱集多功能于一身的省心。而我们真正追求的效率和优雅，对比这些集中式和分布式的产品，却未必有定论。各花各眼吧。</p>
-<p>就我所了解，Farbox的用户其实不少，但貌似随着用户越来越多，Farbox却止步不前，估计是现在的困境让Farbox举步维艰——应该去更新哪个部分呢。</p>
-<h2 id="MarkEditor"><a href="#MarkEditor" class="headerlink" title="MarkEditor"></a>MarkEditor</h2><p>或许，Farbox的创造者已经寄情于<a href="http://markeditor.farbox.com/" target="_blank" rel="external">MarkEditor</a>？</p>
-<p>我今天也试用了一下，从一开始不带期待，到一点一点地被惊艳，再到冷静下来分析，这不适合我。作为一名程序员，我并不需要太浮夸的功能。实用至上，适可而止，没有必要有太多的事物干扰写作。写作应该是纯粹的，才能真实有效地将想表达的表达出来。</p>
-<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>我终于又回到了Hexo的怀抱。</p>
-<p>自定义域名、DNS、安装Hexo、Git的公钥，虽略有问题，也较快解决，比去年第一次折腾时顺利很多了。</p>
-<p>博客转移是个问题，需要手动处理每篇文章，好吧，取其精华，去其糟粕。</p>
-<p>第三方的图床看来很有必要，不然以后再转移博客，又麻烦了。就七牛吧，做好截图保存文件、图片文件夹同步上传相关的准备工件就好。写教程还是有图有真相比较好。</p>
-<p>然后我才发现，Hexo有个主题<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">NexT</a>做得挺强大的，简约的布局，可灵活配置的功能。这种开放，估计Farbox难以企及。</p>
-<p>尽管已经过了可以熬夜折腾的青春，但将一切尽可能地掌握在自己手中，这是程序员所追求的。</p>
-<h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><p>现在我使用<a href="http://www.typora.io/" target="_blank" rel="external">Typora</a>作为本地的Markdown编辑器，也是很纯粹简约的，然后构建了一个文件变动后自动提交Git的脚本，满足了我对Markdown源文件的私密云存储和历史版本的需求，再加上Typora本身自动保存本地历史版本，完美。</p>
-<p>Typora现在还是免费的beta版，不知道1.0正式版出来后会不会收费。到时再看要不要入手吧，现在看看我曾经付费过的学习类和效率类的软硬件产品，Kindle及亚马逊的正版Kindle书籍、Farbox、马克飞象、印象笔记高级帐户（还没激活），颇有感想，因为真正的使用率不高。不是因为我浪费了多少钱，而是一旦投资了金钱，就是对自己的投资，就是对这些产品的认可，所以假如不能好好利用，就是一笔失败的投资，就是一场失败的赌局。往往，这种所谓一次付费、长期收益的投资，容易令人产生错觉，以为『我买了这本书就相当于看完了这本书』『我买了域名以后就会经常写博客』『我买了印象笔记就会每天写日记写总结作笔记』云云。实际上，一次性付出的是金钱，想要长期的收益，还需要长期坚持的精神付出。</p>
-<p>不过呢，看淡一点，同是开发者，花点钱支持别人的劳动成果也是挺有意义的是吗。何况是那些曾经在自己心路历程留下印记的产品呢。</p>
-<p>最后，工具，本身只是一件死的工具，而能让你坚持写博客的，是坚持本身——<strong>坚持学习，坚持分享</strong>。</p>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/04/22/重回Hexo/" rel="next" title="重回Hexo">
+                <i class="fa fa-chevron-left"></i> 重回Hexo
+              </a>
+            
+          </div>
 
-          
-        
-      
-    </div>
-    
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -549,6 +443,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/04/23/Git文件实时同步 for Markdown/"
+           data-title="Git文件实时同步 for Markdown" data-url="http://weijun.me/2016/04/23/Git文件实时同步 for Markdown/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -568,8 +470,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/default_avatar.jpg"
@@ -619,6 +530,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#最终目的"><span class="nav-number">1.</span> <span class="nav-text">最终目的</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基本原理"><span class="nav-number">2.</span> <span class="nav-text">基本原理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#详细步骤"><span class="nav-number">3.</span> <span class="nav-text">详细步骤</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#回顾与展望"><span class="nav-number">4.</span> <span class="nav-text">回顾与展望</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -715,6 +637,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 

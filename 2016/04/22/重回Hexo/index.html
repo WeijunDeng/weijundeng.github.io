@@ -64,7 +64,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Markdown,Hexo," />
 
 
 
@@ -80,15 +80,25 @@
 
 
 
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="邓伟俊">
-<meta property="og:url" content="http://weijun.me/index.html">
+<meta name="description" content="我又回到了Hexo的怀抱。
+
+Farbox还有两个月，我之前购买的Farbox一年Standard服务即将到期。
+Standard文件数500, 月流量2GB， ￥65每年在你的博客里，偶尔会在文章中穿插几张照片，亦或经常写文的，每篇文章也有一些访问量。这是一片用心经营的天地，作为日常使用，这个计划会非常适合你。另外，一年期到之后，如果不续费，账户会降级为Basic，自动再获得5年的Basic延">
+<meta property="og:type" content="article">
+<meta property="og:title" content="重回Hexo">
+<meta property="og:url" content="http://weijun.me/2016/04/22/重回Hexo/index.html">
 <meta property="og:site_name" content="邓伟俊">
-<meta property="og:description">
+<meta property="og:description" content="我又回到了Hexo的怀抱。
+
+Farbox还有两个月，我之前购买的Farbox一年Standard服务即将到期。
+Standard文件数500, 月流量2GB， ￥65每年在你的博客里，偶尔会在文章中穿插几张照片，亦或经常写文的，每篇文章也有一些访问量。这是一片用心经营的天地，作为日常使用，这个计划会非常适合你。另外，一年期到之后，如果不续费，账户会降级为Basic，自动再获得5年的Basic延">
+<meta property="og:updated_time" content="2016-04-25T05:30:10.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="邓伟俊">
-<meta name="twitter:description">
+<meta name="twitter:title" content="重回Hexo">
+<meta name="twitter:description" content="我又回到了Hexo的怀抱。
+
+Farbox还有两个月，我之前购买的Farbox一年Standard服务即将到期。
+Standard文件数500, 月流量2GB， ￥65每年在你的博客里，偶尔会在文章中穿插几张照片，亦或经常写文的，每篇文章也有一些访问量。这是一片用心经营的天地，作为日常使用，这个计划会非常适合你。另外，一年期到之后，如果不续费，账户会降级为Basic，自动再获得5年的Basic延">
 
 
 
@@ -106,7 +116,7 @@
   };
 </script>
 
-  <title> 邓伟俊 </title>
+  <title> 重回Hexo | 邓伟俊 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -127,9 +137,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -208,9 +216,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -230,192 +238,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/04/23/Git文件实时同步 for Markdown/" itemprop="url">
-                  Git文件实时同步 for Markdown
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-23T16:00:00+08:00" content="2016-04-23">
-              2016-04-23
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/Develop/" itemprop="url" rel="index">
-                    <span itemprop="name">Develop</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/04/23/Git文件实时同步 for Markdown/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/23/Git文件实时同步 for Markdown/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <blockquote>
-<p>对于一个经常使用Markdown写作的程序员来说，这实在让人兴奋不已。</p>
-</blockquote>
-<h2 id="最终目的"><a href="#最终目的" class="headerlink" title="最终目的"></a>最终目的</h2><p>你在某个文件夹下的文件变动，可以<strong>实时自动</strong>提交推送到Git。</p>
-<p>这就是本文最终的目的。</p>
-<p>作为程序员的你一定使用过Git或SVN，你应该可以理解什么意思。</p>
-<p>而如果你刚好跟我一样，经常使用Markdown写作，你应该可以理解，这意味着什么：</p>
-<ul>
-<li>本地编辑Markdown文件，自由地记笔记或写博客，无论使用什么编辑器</li>
-<li>轻量的云存储。配置私有仓库就可以私密存储</li>
-<li>完美的历史版本记录、恢复和对比</li>
-<li>部分Git托管网站支持Markdown渲染，比如Github和Coding，这意味着，你可以在其他设备阅读Markdown渲染后的效果。比如我用Coding的App在移动端阅读我的文档。</li>
-<li>如果你使用Hexo之类的静态博客，也可以避免无法云存储你的Markdown源文件的尴尬</li>
-<li>理论上也可以多人协作编辑的，可能需要手动处理冲突</li>
-</ul>
-<h2 id="基本原理"><a href="#基本原理" class="headerlink" title="基本原理"></a>基本原理</h2><p>通过工具监听某个文件夹的文件变动事件，包括增删改，设定一定的间隔，执行一段Git脚本，将改动提交推送到Git远端。</p>
-<h2 id="详细步骤"><a href="#详细步骤" class="headerlink" title="详细步骤"></a>详细步骤</h2><ol>
-<li><p>Mac OS X。其他系统可参考详细步骤做适当修改。</p>
-</li>
-<li><p>安装Git</p>
-</li>
-<li><p>在Git托管网站新建一个repo</p>
-</li>
-<li><p>在本地新建一个文件夹，如/Users/DWJ/Git/Markdown</p>
-</li>
-<li><p>在这个文件夹进行Git的初始化、远端配置、公钥配置等准备，直至可以不用每次提交都要输入密码</p>
-</li>
-<li><p>在另一个文件夹下新建一个文本文件，命名为<strong>commit.h</strong>.如/Users/DWJ/Personal/commit.sh</p>
-</li>
-<li><p>使用文本编辑器打开<strong>commit.h</strong>，输入以下内容后保存</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#!/bin/sh</span><br><span class="line">cd /Users/DWJ/Git/Markdown</span><br><span class="line">git add -A</span><br><span class="line">git commit -m &quot;commit&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure>
-<p>第二行cd的文件夹就是刚刚在本地新建的Git文件夹</p>
-</li>
-<li><p>打开终端，将commit.sh文件拖拽进来，回车执行，可能会提示Permission denied。就是没有权限。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ /Users/DWJ/Personal/commit.sh</span><br><span class="line">Permission denied</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>修改权限：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ chmod 777 /Users/DWJ/Personal/commit.sh</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>修改权限之后再直接执行就没问题了</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ /Users/DWJ/Personal/commit.sh</span><br></pre></td></tr></table></figure>
-<p>应该可以看到Git相关的信息打印</p>
-</li>
-<li><p>Git准备好了，需要先下载安装<a href="http://brew.sh/" target="_blank" rel="external">Homebrew</a>, 按照官网提示，在终端输入：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure>
-<p>回车，有一大堆信息，再回车，等待自动下载安装</p>
-</li>
-<li><p>Homebrew安装好后，在终端输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ brew install fswatch</span><br></pre></td></tr></table></figure>
-<p>回车，等待自动下载安装</p>
-</li>
-<li><p>fswatch安装好后，准备工作基本完成了，现在来看关键一步，在终端输入：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ fswatch -0 /Users/DWJ/Git/Markdown | xargs -0 -n 10 /Users/DWJ/Personal/commit.sh</span><br></pre></td></tr></table></figure>
-<p>更详细参数说明请看fswatch —help，或<a href="https://github.com/emcrisostomo/fswatch/wiki/How-to-Use-fswatch" target="_blank" rel="external">wiki</a>.</p>
-<p>现在回车，没有反应，请勿急。</p>
-</li>
-<li><p>在刚才的Git文件夹，即/Users/DWJ/Git/Markdown。新建、删除或编辑保存文件，每10次操作后，fswatch都会自动执行提交Git的脚本commit.sh，可以在终端看到相关信息（这里采用10次而不是1次，是为了避免Git操作的死循环）</p>
-</li>
-<li><p>之后需要实时提交文件，只需要运行一次fswatch的命令即可。当然你也可以一直不关机不关闭正在运行fswatch的终端。</p>
-</li>
-</ol>
-<h2 id="回顾与展望"><a href="#回顾与展望" class="headerlink" title="回顾与展望"></a>回顾与展望</h2><p>Markdown的编辑器已经多如牛毛，很多已经走上了或开源或收费的道路，彼此的同质化情况也较为严重。在各个开发者不断增加功能和完善体验的更新中，我希望使用Markdown记笔记或写博客时，通过给用户开放配置Git来实现同步和协作，也可以成为一个选择。</p>
-<p><del>我不会告诉你，我已经不用fswatch了，一边码字一边留意终端有没有上传，也是很碍眼又费神的。我现在是隔一段时间就手动执行一下commit.sh，反正就是3次击键的操作。所以还是App原生集成配置Git最好。</del></p>
-
-          
-        
-      
-    </div>
-    
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/04/22/重回Hexo/" itemprop="url">
-                  重回Hexo
-                </a>
+                重回Hexo
               
             
           </h1>
@@ -481,9 +304,7 @@
       
 
       
-        
-          
-            <blockquote>
+        <blockquote>
 <p>我又回到了Hexo的怀抱。</p>
 </blockquote>
 <h2 id="Farbox"><a href="#Farbox" class="headerlink" title="Farbox"></a>Farbox</h2><p>还有两个月，我之前购买的<a href="https://www.farbox.com/" target="_blank" rel="external">Farbox</a>一年Standard服务即将到期。</p>
@@ -512,36 +333,59 @@
 <p>不过呢，看淡一点，同是开发者，花点钱支持别人的劳动成果也是挺有意义的是吗。何况是那些曾经在自己心路历程留下印记的产品呢。</p>
 <p>最后，工具，本身只是一件死的工具，而能让你坚持写博客的，是坚持本身——<strong>坚持学习，坚持分享</strong>。</p>
 
-          
-        
       
     </div>
     
     <div>
       
+        
+      
     </div>
 
     <div>
+      
+        
       
     </div>
 
     <footer class="post-footer">
       
-
+        <div class="post-tags">
+          
+            <a href="/tags/Markdown/" rel="tag">#Markdown</a>
+          
+            <a href="/tags/Hexo/" rel="tag">#Hexo</a>
+          
+        </div>
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/04/23/Git文件实时同步 for Markdown/" rel="prev" title="Git文件实时同步 for Markdown">
+                Git文件实时同步 for Markdown <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
-        <div class="post-eof"></div>
+
+      
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -549,6 +393,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/04/22/重回Hexo/"
+           data-title="重回Hexo" data-url="http://weijun.me/2016/04/22/重回Hexo/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -568,8 +420,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/default_avatar.jpg"
@@ -619,6 +480,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Farbox"><span class="nav-number">1.</span> <span class="nav-text">Farbox</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#MarkEditor"><span class="nav-number">2.</span> <span class="nav-text">MarkEditor</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo"><span class="nav-number">3.</span> <span class="nav-text">Hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Typora"><span class="nav-number">4.</span> <span class="nav-text">Typora</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -715,6 +587,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
